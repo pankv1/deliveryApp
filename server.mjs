@@ -9,7 +9,9 @@ app.use(express.json());
 
 
 app.use(cors({
-  origin: 'https://poetic-sherbet-08d8fe.netlify.app'
+  origin: (requestOrigin, callback) => {
+    callback(null, true);
+  }
 }));
 
 let products = [
