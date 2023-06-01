@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3000';
+const API_URL = 'https://delivery-app-ylxl.onrender.com';
 
 // Получить список всех товаров
 export const fetchProducts = async () => {
