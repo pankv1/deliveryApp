@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f2f2f2;
+}
+
+header{
+  height: 100%;
+  width: 1280px;
+}
+
+.logo {
+  color:#333;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navList {
+  display: flex;
+  list-style: none;
+}
+
+.navList li {
+  margin-right: 10px;
+}
+
+.navList li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.navList li a:hover {
+  color: #ff0000;
+}
+
+.cartImg{
+  height: 24px;
+}

@@ -1,0 +1,42 @@
+.cart {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  color:black;
+}
+
+
+.cartTitle {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+
+.cartTotal {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.cartTotalText {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.cartTotalPrice {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.emptyCartText {
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+}
+
+.emptyCartIcon {
+height: 112px;
+padding: 24px 0px;
+  margin-bottom: 16px;
+}

@@ -1,0 +1,36 @@
+
+.listOfShops{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  li{
+    display: inline-flex;
+    align-items:center;
+    justify-content: center;
+    background-color:rgb(254, 105, 50);
+    border-radius: 12px;
+    height: 32px;
+    width: 160px;
+    color:white;
+    font-weight: 700;
+    cursor:pointer;
+    &:hover{
+      background-color:rgb(240, 143, 108);
+    }
+    &.active{
+      background-color:rgb(255, 85, 0);
+    }
+  }
+}
+
+
+.container {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 2em 2em;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . . ."
+    ". . . .";
+}
