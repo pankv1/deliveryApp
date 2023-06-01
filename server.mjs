@@ -9,7 +9,7 @@ app.use(express.json());
 
 
 app.use(cors({
-  origin: 'https://delivery-app-ylxl.onrender.com'
+  origin: 'https://delivery-app-ylxl.onrender'
 }));
 
 let products = [
